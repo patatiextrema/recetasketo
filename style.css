@@ -1,18 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     text-align: center;
-    background-color: #f8f8f8;
+    background-color: #f3f8f2;
     margin: 0;
     padding: 20px;
+    color: #2c3e50;
 }
 h1 {
-    color: #333;
+    color: #27ae60;
+    font-size: 2.5rem;
 }
 input {
-    padding: 10px;
+    padding: 12px;
     width: 80%;
     max-width: 400px;
     margin-bottom: 20px;
+    border: 2px solid #27ae60;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+input:focus {
+    border-color: #1e8449;
 }
 ul {
     list-style: none;
@@ -20,12 +29,21 @@ ul {
 }
 ul li {
     margin: 10px 0;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+ul li:hover {
+    background-color: #d5e8d4;
+    transform: scale(1.05);
 }
 ul li a {
     text-decoration: none;
     font-size: 18px;
-    color: #007bff;
+    color: #2c3e50;
+    font-weight: bold;
 }
 ul li a:hover {
-    text-decoration: underline;
+    color: #27ae60;
 }
